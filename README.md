@@ -43,3 +43,28 @@ https://localhost:5001/api/v1.0/people
 ![image](https://github.com/junxian428/Clean_Architecture_HelloWorld_MySQL/assets/58724748/2d9dca59-3e91-4b5a-98cb-7586f3cb3853)
 
 ![image](https://github.com/junxian428/Clean_Architecture_HelloWorld_MySQL/assets/58724748/cdc44ff5-7253-49b6-9a5f-53bd3cbfacf3)
+
+
+
+Post Request:
+
+ https://localhost:5001/api/v1.0/people
+
+ {
+    "FirstName": "Ho",
+    "LastName": "Weng Yin"
+    
+}
+
+{
+    "id": 2,
+    "firstName": "Ho",
+    "lastName": "Weng Yin",
+    "active": true,
+    "createdBy": 0,
+    "createdOn": "2023-11-22T04:19:27.7041324Z",
+    "modifiedBy": null,
+    "modifiedOn": null
+}
+
+[{"id":1,"firstName":"Brandon","lastName":"Smith","active":true,"createdBy":1,"createdOn":"2023-11-22T02:52:37","modifiedBy":null,"modifiedOn":null},{"id":2,"firstName":"Ho","lastName":"Weng Yin","active":true,"createdBy":0,"createdOn":"2023-11-22T04:19:28","modifiedBy":null,"modifiedOn":null}
